@@ -69,7 +69,6 @@ csv_file_path = sys.argv[1]
 updated_file_path = 'updated_' + csv_file_path
 
 last_processed_serial = get_last_processed_serial(updated_file_path)
-print(last_processed_serial)
 resuming = False if last_processed_serial is None else True
 
 with open(csv_file_path, mode='r') as input_file, open(updated_file_path, mode='a', newline='') as output_file:
