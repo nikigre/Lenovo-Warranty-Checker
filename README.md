@@ -1,6 +1,6 @@
 # Lenovo Warranty Checker
 ## Description
-This project consists of two scripts, `LenovoWarantyOne.py` and `LenovoWaranty.py`, designed to interact with Lenovo's API to retrieve product and warranty information based on serial numbers. The `LenovoWarantyOne.py` script processes a single serial number provided as a command-line argument, while `LenovoWaranty.py` processes multiple serial numbers from a CSV file and updates the CSV with the retrieved information.
+This project consists of two scripts, `LenovoWarrantyOne.py` and `LenovoWarranty.py`, designed to interact with Lenovo's API to retrieve product and warranty information based on serial numbers. The `LenovoWarrantyOne.py` script processes a single serial number provided as a command-line argument, while `LenovoWarranty.py` processes multiple serial numbers from a CSV file and updates the CSV with the retrieved information.
 
 ## Requirements
 - Python 3.x
@@ -12,20 +12,20 @@ pip install requests
 ```
 
 ## Files
-### 1. LenovoWarantyOne.py
+### 1. LenovoWarrantyOne.py
 This script fetches and displays product and warranty information for a single Lenovo product based on its serial number.
 ```sh
-python LenovoWarantyOne.py <serial_number>
+python LenovoWarrantyOne.py <serial_number>
 ```
 
-### 2. LenovoWaranty.py
+### 2. LenovoWarranty.py
 This script processes a CSV file of Lenovo serial numbers, fetches the corresponding product and warranty information, and updates the CSV file with this information.
 ```sh
-python LenovoWaranty.py <csv_file_path>
+python LenovoWarranty.py <csv_file_path>
 ```
 
 ### template.csv
-This file has a template structure that `LenovoWaranty.py` expects.
+This file has a template structure that `LenovoWarranty.py` expects.
 
 ## Contributing
 We welcome contributions to this project! If you have suggestions for improvements, new features, or bug fixes, please follow the steps below:
